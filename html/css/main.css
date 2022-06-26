@@ -1,0 +1,23 @@
+#titulo {
+  text-align: center;
+  color: rgb(255, 196, 0);
+  border-color: black;
+  border-style: double;
+}
+.parrafo {
+  text-align: justify;
+  color: rgb(74, 73, 72);
+  background-color: rgb(238, 235, 235);
+  border-radius: 5px;
+}
+#nav {
+  color: brown;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+thead, th{
+    background-color: coral;
+    text-align: center;
+  }
