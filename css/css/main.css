@@ -1,0 +1,92 @@
+p {
+  /* selector de etiquetas, en este caso parrafos  */
+  color: cadetblue;
+}
+
+.texto {
+  /* selector de clases, en este caso las clases texto */
+  color: chartreuse;
+}
+
+.especial {
+  /* selector de clases, en este caso las clase especial */
+  color: darkolivegreen;
+}
+
+h3.especial {
+  /* selector de clase con etiqueta, en este caso seria todos h3 con clase especial */
+  color: deeppink;
+}
+
+#titulo {
+  /* selector de id, en este caso titulo */
+  color: lightcoral;
+}
+
+div p {
+  /* selector hijos de una etiqueta especifica, en este caso seria todas las p subhijas de div */
+  color: rgb(33, 200, 200);
+}
+
+div,
+p {
+  /* seleccion de dos o mas etiquetas, se separa por comas */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+* {
+  /* selector de todo el documento, universal */
+  font-size: smaller;
+}
+
+.color {
+  /* 
+  para colores hexadecimales se utiliza el # 
+  para colores con rgb se utilizan numeros desde 0 hasta 255
+  */
+  color: #aaa;
+}
+
+.elegido {
+  /* border: #ff0 5px solid; */
+  /* 
+  border-color: especifica el color del borde
+  border-radius especifica el radio de las esquinas
+  border-style: 
+    *dashed
+    *dotted 
+    *double 
+    *groove 
+    *hidden 
+    *inherit 
+    *initial 
+    *inset 
+    *none 
+    *outset 
+    *ridge 
+    *solid 
+    *unset
+  border-width: 5px; tamaño del borde
+  */
+  border-color: rgb(188, 133, 23);
+  border-radius: 5px 30px 15px 7px;
+  border-style: dashed;
+  border-width: 5px;
+}
+/* 
+Tamaños:
+    0ch
+    0cm
+    0em se utiliza mucho
+    0ex 
+    0in 
+    0mm 
+    0pc 
+    0pt 
+    0px 
+    0rem 
+    0vh 
+    0vmax 
+    0vmin 
+    0vw 
+*/
