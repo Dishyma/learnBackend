@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Tablas</title>
+  </head>
+  <body>
+    <table border="1">
+      <caption>
+        Horario Universidad
+      </caption>
+      <thead>
+        <tr>
+          <!-- tr crea una fila nueva -->
+          <!-- th pone en negrilla el texto y adiciona los elementos a la fila -->
+          <th>Hora</th>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miercoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+          <th>Sabado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- td nos sirve para añadir elementos en las filas, no son en negrilla -->
+          <th>7:00</th>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+        </tr>
+        <tr>
+          <th>9:00</th>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+        </tr>
+        <tr>
+          <th>11:00</th>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+        </tr>
+        <tr>
+          <th>13:00</th>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+        </tr>
+        <tr>
+          <th>15:00</th>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+        </tr>
+        <tr>
+          <!-- colspan nos sirve para hacer una fila unificada de la cantidad de espacios que se le diga -->
+          <th>15:00</th>
+          <td colspan="6">Nos fuimos</td>
+        </tr>
+        <tr>
+          <!-- rowspan nos sirve para asignar una columna unificada de la cantidad de espacios que se le asigne -->
+          <th>17:00</th>
+          <td rowspan="3">Jugar</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+        </tr>
+        <tr>
+          <th>19:00</th>
+          <!-- <td rowspan="3">Jugar</td> -->
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+        </tr>
+        <tr>
+          <th>21:00</th>
+          <!-- <td rowspan="3">Jugar</td> -->
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+        </tr>
+        <tr>
+          <th>23:00</th>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+          <td>Libre</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <!-- el tfoot nos sirve para organizar mas la tabla, se usa mayormente para darle resumenes o totales a las tablas -->
+      </tfoot>
+    </table>
+  </body>
+</html>
