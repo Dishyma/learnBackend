@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+
+  <body>
+    <h1>Formularios</h1>
+    <form>
+      <!-- label nos sirve para asociar un nombre con un input -->
+      <label for="nombre">Nombre:</label>
+      <!-- 
+        *type="" : este es el tipo de valor que se espera, y hace que se comporte diferente dependiendo del valor que tenga esa propiedad
+        *value="" : El valor inicial del control. Este atributo es opcional, excepto cuando el atributo type es radio o checkbox.
+        *name="" : esta propiedad se usa para posteriormente tener una mejor organizacion al manejar los datos
+        *placeholder="" : Una pista para el usuario sobre lo que puede introducir en el control. El texto no debe contener saltos de línea.
+        id="" : es el identificador que se le da al input
+        maxlength="" : es el maximo de caracteres que puede tener el input
+        minlength="" : es el minimo de caracteres que puede tener el input
+        requiered : hace referencia a que es un campo requerido 
+      -->
+      
+      <input
+        type="text"
+        value=""
+        name="nombre"
+        placeholder="Ingresa tu nombre"
+        id="nombre"
+        maxlength="15"
+        minlength="3"
+        requiered
+      />
+      <br />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="">button</label>
+      <input type="button" value="subir" id="button" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="checkbox">checkbox</label>
+      <input type="checkbox" name="" id="checkbox" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="color">color</label>
+      <input type="color" name="color" id="color" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="date">date</label>
+      <input type="date" name="date" id="date" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="datetime">datetime</label>
+      <input type="datetime" name="" id="datetime" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="datetime-local">datetime-local</label>
+      <input type="datetime-local" name="" id="datetime-local" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="file">file</label>
+      <input type="file" name="file" id="file" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="image">image</label>
+      <input type="image" src="imgs/dog-48490.svg" alt="" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="month">month</label>
+      <input type="month" name="month" id="month" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="password">password</label>
+      <input type="password" name="password" id="password" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="number">number</label>
+      <input type="number" name="number" id="number" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="radio">radio</label>
+      <input type="radio" name="radio" id="radio" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="reset">reset</label>
+      <input type="reset" value="reset" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="search">search</label>
+      <input type="search" name="search" id="search" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="submit">submit</label>
+      <input type="submit" value="Submit" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="tel">tel</label>
+      <input type="tel" name="tel" id="tel" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="time">time</label>
+      <input type="time" name="" id="time" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="url">url</label>
+      <input type="url" name="" id="url" />
+      <br />
+      <!-- ----------------------------------------------------------------------------- -->
+      <br />
+      <label for="week">week</label>
+      <input type="week" name="week" id="week" />
+      <br />
+    </form>
+    <!-- type:
+        *button
+        *checkbox
+        *color
+        *date
+        *datetime
+        *datetime-local
+        *email
+        *file   
+        *hidden
+        *image
+        *month
+        *number
+        *password
+        *radio
+        *range
+        *reset
+        *search
+        *submit
+        *tel
+        *text
+        *time
+        *url
+        *week
+        -->
+  </body>
+</html>
