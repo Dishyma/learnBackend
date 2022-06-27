@@ -90,3 +90,40 @@ Tamaños:
     0vmin 
     0vw 
 */
+#fondo {
+  color: black;
+  background-color: rgba(255, 0, 0, 0.3); /* con rgba se define los colores en rgb, y la opacidad del background especifico */
+  /* opacity: 0.7; */ /* con opacity se toma todo lo que hay en el elemento y se le asigna la opacidad */
+  /* los valores de opacidad van desde 0 hasta 1 */
+  background-image: url("../imgs/imagen.webp"); /* este selecciona una imagen de fondo */
+  /* height: 300px; */ /* altura del elemento */
+  background-size: 200px 200px; /* tamaño del background respecto al elemento */
+  background-repeat: no-repeat; /* por si se quiere repetir o no */
+  background-position: center; /* posicion del background respecto al elemento */
+  background: rgba(255, 0, 0, 0.3) url("../imgs/imagen.webp") repeat-x center bottom / 200px 200px; /* es para especificar todas las propiedades en una sola */
+}
+
+.box{
+  background-color: burlywood; /* Color del fondo */
+  margin: 15px 20px 25px 30px; /* Margen */
+  border: black solid 1px; /* borde entre margin y padding */
+  padding: 30px 25px 20px 15px; /* padding */
+  outline: red solid 0.5px; /* borde entre margin y padding */
+  height: 5px; /* altura */
+  width: 10px; /* anchura */
+  overflow:  scroll; 
+  /* 
+  overflow: es lo que se muestra en el elemento
+  hidden: esconde todo lo que no cabe en el elemento
+  visible: es el que esta por defecto
+  scroll:adiciona barras de scroll 
+  */
+}
+.text{
+  background-color: aquamarine;
+  color: black;
+  text-align: center; /* Alineacion de texto */
+  text-decoration: overline; /* decoracion del texto */
+  text-shadow: 3px 3px 1.5px rgb(182, 66, 66); /* el sombreado del texto */
+}
+
