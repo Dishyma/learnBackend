@@ -126,4 +126,61 @@ Tamaños:
   text-decoration: overline; /* decoracion del texto */
   text-shadow: 3px 3px 1.5px rgb(182, 66, 66); /* el sombreado del texto */
 }
+ol{
+  background-color: yellow;
+  list-style-type: lower-greek;
+  /* padding-left: 0; */
+  /* list-style-position: inside; */
+}
+
+table{
+  width: 100px;
+  border-collapse: collapse;
+  padding:  5px;
+}
+th, td{
+  border: solid 0.5px black;
+  padding:  2.5px;
+}
+th{
+  background-color: blanchedalmond;
+  color: blue;
+  text-align: center;
+  /* 
+  font-size:50px;
+  text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black; 
+  */
+}
+tr:nth-child(even){
+  background-color: rgb(163, 187, 187);
+}
+tr:hover{
+  background-color: #aaa;
+  cursor: pointer;
+}
+div{
+  display: inline;
+}
+span{
+  /* display: none; */
+  visibility: hidden;
+}
+.ancho{
+  background-color: rgb(197, 197, 57);
+  max-width: 400px;
+}
+#titulo{
+  position: static;
+  /* 
+  absolute:
+  static:
+  fixed:
+  relative:
+  */
+  left: 20px;
+  top: 20px;
+}
 
